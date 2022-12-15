@@ -1,0 +1,135 @@
+body{
+    background-color: rgb(57, 186, 255);
+    background-image: linear-gradient(90deg, rgba(123,224,255,1) 0%, rgba(57,186,225,1) 100%);
+    margin: 0px;
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+
+}
+button{
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: transparent;
+    border: 0px;
+    color: rgb(255, 255, 255);
+    border: solid white 5px;
+    height: 50px;
+    width: 160px;
+    padding: 5px;
+    animation: color 1.5s linear infinite;
+    border-radius: 60px;
+}
+button:hover{
+    animation: none;
+    color: #ff9900ff;
+    border: solid #ff9900ff 5px;
+}
+
+@font-face {
+    font-family: Comfortaa;
+    src: url(Comfortaa-VariableFont_wght.ttf);
+}
+
+@keyframes color{
+    0%{
+        color:rgb(255, 255, 255);
+        border: solid rgb(255, 255, 255) 5px;
+}
+    75%{
+        color: rgb(217, 217, 217);
+        border: solid rgb(217, 217, 217) 5px;
+    }
+    100%{
+        color:rgb(255, 255, 255);
+        border: solid rgb(255, 255, 255) 5px;
+    }
+}
+
+#profile{
+    background-color: rgb(55, 55, 55);
+    text-align: center;
+    padding: 10px;
+    width: inherit;
+    height: 733px;
+}
+#me{
+    border-radius: 100%;
+    border: solid white 3px;
+    transition: .5s;
+}
+#me:hover{
+    height: 300px;
+    width: 300px;
+}
+#aboutme{
+    font-size: 20px;
+}
+#orange{
+    background-image: url(orange2.png);
+    width: 100%;
+    height: 300px;
+    background-size: contain;
+}
+div{
+    margin-bottom: 0px;
+}
+
+@media only screen and (min-width: 1200px) {
+    body{
+        background-color: rgb(57, 186, 255);
+        background-image: linear-gradient(90deg, rgba(123,224,255,1) 0%, rgba(57,186,225,1) 100%);
+        margin: 0px;
+        font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        display: flex;
+        flex-direction: row;
+        color: rgb(255, 255, 255);
+        overflow: hidden;
+    }
+    button{
+        font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+        font-size: 60px;
+        background-color: transparent;
+        border: 0px;
+        color: rgb(255, 255, 255);
+        margin-left: 10px;
+        margin-top: 300px;
+        border: solid white 5px;
+        height: 150px;
+        width: 480px;
+        padding: 5px;
+        animation: color 1.5s linear infinite;
+        border-radius: 60px;
+    }
+    #profile{
+        background-color: rgb(55, 55, 55);
+        text-align: center;
+        padding: 10px;
+        width: 306px;
+        height: 733px;
+    }
+    #me{
+        border-radius: 100%;
+        border: solid white 3px;
+        transition: .5s;
+    }
+    #me:hover{
+        height: 300px;
+        width: 300px;
+    }
+    #aboutme{
+        font-size: 20px;
+    }
+    #orange{
+        background-image: url(orange.png);
+        height: 753px;
+        width: 710px;
+        background-size: cover;
+        background-position: -190px;
+        background-repeat: no-repeat;
+        
+    }
+}
